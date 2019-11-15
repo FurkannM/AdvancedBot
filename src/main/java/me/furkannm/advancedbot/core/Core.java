@@ -14,7 +14,7 @@ public class Core extends AdvancedBot {
 	}
 
 	public static void main(String[] args) {
-		initialize("NTM3NjkxNDEwMjk2NDcxNTcz.Dyo-hg.kb3zVRl0e-61auhmqam6iJroVXE");
+		initialize("BOT-TOKEN");
 		getApi().addEventListener(new CommandListener());
 		System.out.println("Bot başlatıldı!");
 		Console.loadConsole();
